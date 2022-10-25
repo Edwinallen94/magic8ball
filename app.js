@@ -1,7 +1,7 @@
 let userName = "";
 userName ? console.log(`Hello, ${userName}`) : console.log("Hello, Edwin");
 
-let userQuestion = "Would I have superpowers?";
+let userQuestion = prompt("Ask me a question?");
 console.log(userQuestion);
 
 let randomNumber = Math.floor(Math.random() * 8);
@@ -34,4 +34,4 @@ switch (randomNumber) {
     eightBall = "Signs point to yes";
     break;
 }
-console.log(eightBall);
+alert(eightBall);
